@@ -1,0 +1,58 @@
+body {
+    padding: 5%
+}
+
+header {
+    background-color: #ffffff;
+
+}
+
+#Dyson-v10 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #063f80;
+    margin: 0 auto;
+}
+
+
+.myStyle {
+    /* styles */
+    background-color: #ffffff;
+}
+
+ul.list li {
+
+    background-color: #ffffff;
+    list-style-type: square;
+}
+
+table {
+    border: 1em solid burlywood;
+    text-align: left
+}
+
+table tr:nth-child(odd) {
+
+    background-color: #f7f4e3
+}
+
+table tr:nth-child(even) {
+
+    background-color: #d2e1c8
+}
+
+th {
+    padding: 1em;
+    text-align: center;
+    margin: 1em;
+
+    font-size: 1.5em
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
