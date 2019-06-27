@@ -1,29 +1,45 @@
-body {
-    padding: 5%
+.site {
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+    /*grid-template-rows: repeat(6, 1fr);*/
+    grid-row-gap: 2.5em;
+    grid-column-gap: 1em;
+    align-content: center;
+    grid-template-areas:
+        "header p"
+        "ul table"
+        "video form "
+        " footer .";
+
+    font-family: arial
 }
+
 
 header {
     background-color: #ffffff;
-
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
 }
 
-#Dyson-v10 {
+p {
+
     font-size: 2em;
     font-weight: bold;
     color: #063f80;
-    margin: 0 auto;
+    line-height: 2.5em
 }
 
-
-.myStyle {
-    /* styles */
-    background-color: #ffffff;
-}
 
 ul.list li {
 
     background-color: #ffffff;
-    list-style-type: square;
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #063f80;
+    line-height: 2em
 }
 
 table {
@@ -44,9 +60,15 @@ table tr:nth-child(even) {
 th {
     padding: 1em;
     text-align: center;
-    margin: 1em;
-
+    margin: 2em;
     font-size: 1.5em
+}
+
+td {
+    padding: 1em;
+    text-align: center;
+    margin: 2em;
+    font-size: 1em
 }
 
 a:link {
@@ -56,3 +78,18 @@ a:link {
 a:hover {
     text-decoration: underline;
 }
+
+/*
+#feature_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#header_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+*/
