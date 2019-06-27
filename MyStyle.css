@@ -14,9 +14,9 @@
     font-family: arial;
 
 
+    background: url(./buy-now.png) top right no-repeat;
     background: url(./buy-now.png) top left no-repeat;
 
-    background-position: corner;
     margin: 2em
 }
 
