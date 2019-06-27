@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 2fr, 1fr;
     /*grid-template-rows: repeat(6, 1fr);*/
-    grid-row-gap: 2.5em;
-    grid-column-gap: 1em;
+    grid-row-gap: 3em;
+    grid-column-gap: 2em;
     align-content: center;
     grid-template-areas:
         "header p"
@@ -11,7 +11,50 @@
         "video form "
         " footer .";
 
-    font-family: arial
+    font-family: arial;
+
+
+    background: url(./buy-now.png) top left no-repeat;
+
+    background-position: corner;
+    margin: 2em
+}
+
+/*
+.item1 {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+}
+
+.item2 {
+    grid-area: b;
+    align-self: center;
+    justify-self: center;
+}
+
+.item3 {
+    grid-area: c;
+    align-self: center;
+    justify-self: center;
+}
+
+.item4 {
+    grid-area: d;
+    align-self: center;
+    justify-self: center;
+}
+
+.item5 {
+    grid-area: e;
+    align-self: center;
+    justify-self: center;
+}
+
+.item6 {
+    grid-area: f;
+    align-self: center;
+    justify-self: center;
 }
 
 
@@ -21,7 +64,7 @@ header {
     font-weight: bold;
     color: #000000;
 }
-
+*/
 p {
 
     font-size: 2em;
@@ -44,7 +87,7 @@ ul.list li {
 
 table {
     border: 1em solid burlywood;
-    text-align: left
+    text-align: center;
 }
 
 table tr:nth-child(odd) {
@@ -68,7 +111,7 @@ td {
     padding: 1em;
     text-align: center;
     margin: 2em;
-    font-size: 1em
+    font-size: 1.5em
 }
 
 a:link {
@@ -77,6 +120,17 @@ a:link {
 
 a:hover {
     text-decoration: underline;
+}
+
+.form-controls {
+    font-size: 1.5em
+}
+
+
+
+footer {
+
+    font-size: 2em
 }
 
 /*
