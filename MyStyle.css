@@ -1,4 +1,10 @@
+:root {
+    --banner-height: 2em;
+    --banner-width: 6em;
+}
+
 .site {
+    /*grid style */
     display: grid;
     grid-template-columns: 2fr, 1fr;
     /*grid-template-rows: repeat(6, 1fr);*/
@@ -13,11 +19,40 @@
 
     font-family: arial;
 
+    margin: calc(1em+var(--banner-height)) calc(1em+var(--banner-width));
 
-    background: url(./buy-now.png) top right no-repeat;
-    background: url(./buy-now.png) top left no-repeat;
 
-    margin: 2em
+}
+
+.banner {
+    position: fixed;
+
+}
+
+.buy-now-img {
+
+    height: var(--banner-height);
+    width: var(--banner-width);
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
 }
 
 /*
